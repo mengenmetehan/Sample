@@ -1,7 +1,5 @@
 package csystem.game.craps;
 
-
-
 public class Craps {
 	public boolean win;
 	
