@@ -1,6 +1,8 @@
 package csystem.simulation.craps;
 
 
+import csystem.game.craps.Craps;
+
 public class
 CrapsSimulation {
 	public double p;
@@ -15,8 +17,9 @@ CrapsSimulation {
 			
 			craps.play();
 			
-			if (craps.win)
+			if (craps.win) {
 				++winCount;
+			}
 		}
 		
 		p = (double)winCount / n;
