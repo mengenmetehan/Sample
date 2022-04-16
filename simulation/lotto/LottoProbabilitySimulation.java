@@ -2,6 +2,8 @@ package csystem.simulation.lotto;
 
 
 
+import csystem.game.lotto.Lotto;
+
 import java.util.Random;
 
 public class LottoProbabilitySimulation {
